@@ -4,9 +4,9 @@ from mysql.connector import connect as cc
 
 db= cc(
       host="localhost",
-      user="root",
-      passwd="Piyush@05124",
-      database="COVID"
+      user="<your username in server>",
+      passwd="<your mysql server password>",
+      database="<your database name in the server>"
 )
 
 point=db.cursor()
